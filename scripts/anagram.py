@@ -9,11 +9,7 @@ class Anagram:
                         count += 1
                         break
             if count == len(arr[item]):
-                print("is anagram")
                 anagrams.append(arr[item])
-                print(anagrams)
-            else:
-                print("no anagram")
         return anagrams
 
 
