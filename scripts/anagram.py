@@ -8,10 +8,3 @@ class Anagram:
                 if sorted_item == sorted_str:
                     anagrams.append(arr[item])
         return anagrams
-
-
-a = Anagram()
-print(a.findAnagram("list", ["istl"]))
-
-a2 = Anagram()
-print(a2.findAnagram("listen", ["enlist", "inlets", "google"]))
